@@ -1,10 +1,5 @@
-print(10, 20,30, sep=" - " ,end= " # ")
-# end - terminador 
-#sep- sendo separador, entre " " usar o símbolo que irá separar 
+n1 = int(input('digite o número')) 
+n2 = int(input('digite outro')) 
 
-
-print(80, 90, 100, sep=" * ", end="\n")
-
-# \n serve pra quebrar a linha 
-
-print('douglas' , 'simone' , 'andre' , sep='*' , end='#')
+total = n1 + n2 
+print(f"A soma dos números {n1} e {n2} é {total}")

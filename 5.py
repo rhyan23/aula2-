@@ -1,6 +1,6 @@
-#tipos int = > N ---- float => real 
-print(10)
-print(type(10))
-print(10.9)
-print(type(10.9))
+metro= int(input('ola, digite quantos metros você quer calcular')) 
+
+multiplicacao = metro * 100 
+
+print(multiplicacao)
 

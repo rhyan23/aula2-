@@ -1,2 +1,2 @@
-# posso fazer comentario 
-print('oi') # irá imprimir oi na tela 
+n1 = input ('digite um numero')
+print(n1)

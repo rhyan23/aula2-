@@ -1,11 +1,7 @@
-nome = 'Rhyan'
-idade = 18
-altura = 1.66
-peso = 70
-
-print('nome : ' ,nome, '\nidade' ,idade)
-#calculo 
-imc = peso / altura**2 
-print('nome :' ,nome ,'\nidade : ' , idade, '\nimc', imc)
-
-
+salario_hora = float('quanto você ganha por hora?')
+horas_dias = float('quantas horas por dia ?')
+ 
+mes = salario_hora 
+m2 = horas_dias * salario_hora 
+print(f'você recebe {m2} por mês')
+ 

@@ -1,13 +1,7 @@
-#variaveis são usadas para salvar algo na memória do computador 
-#uso nome_variavel = expressão 
+lado = float(input("digite o comprimento do quadrado"))
+area= lado * lado 
+print(f'a area do quadrado é:{area}') 
+dobro = area * 2 
+print(f'o dobro da área é{dobro}')
 
-nome = 'Rhyan' # <= variavel
-sobrenome = 'Henrique' 
-idade = '18 anos'
 
-print('none: ',nome)
-print('sobrenome : ',sobrenome)
-print('idade : ', idade )
-
-contatenação = 'Rhyan' +' - ' + 'Henrique'
-print(contatenação)  
